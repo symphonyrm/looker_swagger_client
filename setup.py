@@ -14,7 +14,7 @@
 import sys
 from setuptools import setup, find_packages
 
-NAME = "swagger-client"
+NAME = "swagger_client"
 VERSION = "1.0.0"
 # To install the library, run the following
 #
@@ -30,7 +30,7 @@ setup(
     version=VERSION,
     description="Looker API 3.0 Reference",
     author_email="",
-    url="",
+    url="https://github.com/symphonyrm/looker_swagger_client",
     keywords=["Swagger", "Looker API 3.0 Reference"],
     install_requires=REQUIRES,
     packages=find_packages(),
